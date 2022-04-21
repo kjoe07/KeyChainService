@@ -76,7 +76,7 @@ public class KeychainService: NSObject {
         return false
     }
 
-    static func loadPassword(service: String, account: String) -> String? {
+    static public func loadPassword(service: String, account: String) -> String? {
         // Instantiate a new default keychain query
         // Tell the query to return a result
         // Limit our results to one item
